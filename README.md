@@ -1,3 +1,5 @@
+[![Build status](https://travis-ci.org/zwrankin/python-challenges.svg?branch=master)](https://travis-ci.org/zwrankin)
+
 # Pythonic Challenges
 
 ### Travis CI
