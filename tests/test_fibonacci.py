@@ -1,4 +1,5 @@
 from pychallenge.fibonacci.fibonacci import fibonacci
+import codecov
 
 
 def test_fib_10():
