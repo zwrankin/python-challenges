@@ -1,6 +1,5 @@
-import pytest
-import codecov
 from pychallenge.palindrome.palindrome import _reverse, is_palindrome
+import pytest
 
 
 def test_reverse():
@@ -10,9 +9,9 @@ def test_reverse():
 
 
 def test_palindrome():
-    assert is_palindrome("car") == False
-    assert is_palindrome("racecar") == True
-    assert is_palindrome("rac-%^%-car") == True
+    assert is_palindrome("car") is False
+    assert is_palindrome("racecar") is True
+    assert is_palindrome("rac-%^%-car") is True
 
 
 def test_palindrome_typing():
