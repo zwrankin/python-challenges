@@ -1,4 +1,5 @@
-def bubble_sort(mylist: list):
+def bubble_sort(mylist: iter):
+    mylist = list(mylist)  # handles string input
     swapped = True
 
     if len(mylist) <= 1:
