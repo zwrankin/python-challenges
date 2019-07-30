@@ -5,3 +5,4 @@
 *.pyc
 # Coverage reports are automatically uploaded during Travis CI run
 .coverage
+*secrets.py
